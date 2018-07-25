@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+nav#Joinus_nav {
+   text-align: center;
+   min-height : 1300px;
+   width: 100%;
+   padding-top: 7%;
+}
+
+nav#Joinus_nav span#Joinus_logo {
+   border-bottom: 1px solid black;
+   width: 9%;
+   font-size: 19pt;
+   display: inline-block;
+}
+
+nav#Joinus_nav fieldset {
+   margin-top: 3%;
+   border: 1px solid lightgray;
+   border-radius: 10px;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+   min-width: 1180px;
+   max-width: 1480px;
+   display: inline-block;
+}
+
+nav#Joinus_nav fieldset legend {
+   text-align: left;
+}
+
+nav#Joinus_nav fieldset textarea {
+   resize: none;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+nav#Joinus_nav fieldset div.checkbox {
+   text-align: left;
+   height: 25px;
+   margin-left: 35px;
+   margin-top: 1%;
+   font-size: 10pt;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+nav#Joinus_nav fieldset div.checkbox input[type=checkbox] {
+   padding-top: 2px;
+   display: inline-block;
+   width: 17px;
+   height: 17px;
+   margin: -2px 5px 0 0;
+   vertical-align: middle;
+   cursor: hand;
+}
+
+nav#Joinus_nav div#Joinus_button_box {
+   margin-top: 1%;
+}
+
+nav#Joinus_nav div#Joinus_button_box input[type=button] {
+   border: 1px solid black;
+   background-color: black;
+   color: snow;
+   width: 100px;
+   height: 45px;
+   border-radius: 7px;
+   outline: none;
+   font-size: 9pt;
+   cursor: hand;
+   margin-left: 0.6%;
+   margin-right: 0.6%;
+   transition: background-color 0.5s, color 0.5s;
+}
+
+nav#Joinus_nav div#Joinus_button_box input[type=button]:hover {
+   background-color: white;
+   color: black;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+nav#Joinus_nav2 {
+   text-align: center;
+   height : 230%;
+   min-height: 2000px;
+   width: 100%;
+   padding-top: 7%;
+}
+
+nav#Joinus_nav2 span#Joinus_logo {
+   border-bottom: 1px solid black;
+   width: 9%;
+   font-size: 19pt;
+   display: inline-block;
+}
+
+nav#Joinus_nav2 div#Membership_Log {
+   font-size: 30pt;
+   font-weight: bold;
+   margin-top: 6%;
+}
+
+nav#Joinus_nav2 div#Membership_Log2 {
+   font-size: 37pt;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+   font-weight: lighter;
+   margin-top: 3%;
+}
+
+nav#Joinus_nav2 img#Membership_Log {
+   margin-top: 4%;
+}
+
+nav#Joinus_nav2 div#Membership_Log3 {
+   text-align: left;
+   font-size: 15pt;
+   margin-top: 3%;
+   border-bottom: 4px solid black;
+   width: 1260px;
+   display: inline-block;
+   padding-bottom: 5px;
+}
+
+nav#Joinus_nav2 div#Membership_table {
+   margin-top: 4%;
+   width: 1260px;
+   display: inline-block;
+}
+nav#Joinus_nav2 div#Membership_table div{
+   text-align: right;
+}
+nav#Joinus_nav2 div#Membership_table div b{
+   color: orange;
+}
+
+nav#Joinus_nav2 table {
+   border: 1px solid lightgray;
+   border-collapse: collapse;
+   border-color: lightgray;
+   border-collapse: collapse;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+nav#Joinus_nav2 table td.td1 {
+   border: 1px solid lightgray;
+   width: 150px;
+   height: 50px;
+   padding-left: 40px;
+   font-size: 11pt;
+}
+
+nav#Joinus_nav2 table td.td2 {
+   border: 1px solid lightgray;
+   width: 1060px;
+   padding-left: 10px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   font-size: 11pt;
+}
+
+nav#Joinus_nav2 table td.td1 b {
+   color: orange;
+}
+
+nav#Joinus_nav2 input[type=text] {
+   height: 25px;
+}
+
+nav#Joinus_nav2 input[type=password] {
+   height: 25px;
+}
+
+nav#Joinus_nav2 select {
+   height: 25px;
+   width: 70px;
+}
+
+nav#Joinus_nav2 input[type=text].address1 {
+   height: 25px;
+   width: 100px;
+}
+
+nav#Joinus_nav2 input[type=text].address2 {
+   height: 25px;
+   width: 400px;
+}
+
+nav#Joinus_nav2 input[type=button] {
+   height: 24.5px;
+   border: 1px solid black;
+   background-color: black;
+   color: snow;
+   border-radius: 3px;
+   outline: none;
+   cursor: hand;
+   margin-left: 0.6%;
+   margin-right: 0.6%;
+   transition: background-color 0.5s, color 0.5s;
+   padding-top: 2px;
+   display: inline-block;
+   margin: -2px 5px 0 0;
+   vertical-align: middle;
+}
+
+nav#Joinus_nav2 input[type=button]:hover {
+   background-color: white;
+   color: black;
+}
+
+nav#Joinus_nav2 input[type=text].phone {
+   height: 25px;
+   width: 50px;
+}
+
+nav#Joinus_nav2 select#phone {
+   height: 25px;
+   width: 50px;
+   padding-top: 2px;
+   display: inline-block;
+   margin: -2px 0 0 0;
+   vertical-align: middle;
+}
+
+nav#Joinus_nav2 input[type=text].email {
+   height: 25px;
+   width: 130px;
+}
+
+nav#Joinus_nav2 select#email {
+   height: 25px;
+   width: 130px;
+   padding-top: 2px;
+   display: inline-block;
+   margin: -2px 0 0 0;
+   vertical-align: middle;
+}
+
+nav#Joinus_nav2 div#Joinus_button input[type=button]#Joinus_button {
+   margin-top: 1%;
+}
+
+div#Joinus_button_box input[type=button] {
+  border: 1px solid black;
+   background-color: black;
+   color: snow;
+   width: 100px;
+   height: 45px;
+   border-radius: 7px;
+   outline: none;
+   font-size: 9pt;
+   cursor: hand;
+   margin-left: 0.6%;
+   margin-right: 0.6%;
+   transition: background-color 0.5s, color 0.5s;
+}
+
+div#Joinus_button_box input[type=button]:hover {
+   background-color: white;
+   color: black;
+}
