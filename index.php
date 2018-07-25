@@ -1,30 +1,38 @@
 <?php
+/*  1. event 테이블에서 y값을 가지고와 팝업창을 띄운다
+ *  2. banner 테이블에 저장된 이미지를 슬라이더에 넣는다.
+ *  3. goods 테이블에 베스트 체크 값을 가지고와 화면에 띄운다.
+ *
+ *   */
+
+
+
 session_start();
+$user_id = $_SESSION['user_id'];
 include "./lib/dbconn.php"; // dconn.php 파일을 불러옴
+include "./lib/total_db.php"; //  총 db 테이블 생성 파일을 불러옴
+//이벤트 테이블에서 팝업 설정 시 팝업창이 뜨게 하는 곳.
 $sql = "select * from event where popup_check='y'";
 $result = mysqli_query($con, $sql);
-$record = mysqli_num_rows($result);
+$row = mysqli_fetch_array($result);
+$num = $row['num'];
 
-echo "<script>";
-echo "function eventpop_up(){
-        if(!document.cookie.match('close')){";
-for ($i = 0; $i < $record; $i ++) {
-    $row = mysqli_fetch_array($result);
-    $num = $row['num'];
-    echo "
-          window.open('./eventpopup/popup.php?num={$num}','', 'width=450,height=700');
-          
-          ";
+if($num){
+    //값이 있을 시. 함수가 실행된다.
+    echo "<script>
+function eventpop_up(){
+        if(!document.cookie.match('close')){
+          window.open('./eventpopup/popup.php?num={$num}','event', 'width=450,height=700');
+}}
+</script>";
 }
-echo "}}";
-echo "</script>";
 ?>
 <html>
 <head>
 <title>Look&</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="./css/main2.css?v=v6" rel="stylesheet" type="text/css">
+<link href="./css/main2.css?v=v9" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="./img/look.png" type="image/x-icon">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -41,10 +49,28 @@ echo "</script>";
 }
 </style>
 <script type="text/javascript">
+$(document).ready(function() {
+	$("#top_button").click(function() {
+	    $('html, body').animate({
+	        scrollTop : 0
+	    }, 400);
+	    return false;
+	});
+});
 </script>
 </head>
 <body onload="eventpop_up()">
-
+<div id="function_button">
+	<?php if(isset($user_id)){?>
+		<a id="myorder"
+			href="http://localhost/look_project/mypage/mypage_main.php?mode=myorder"></a>
+		<a id="wish_list"
+			href="http://localhost/look_project/mypage/mypage_main.php?mode=mywishlist"></a>
+		<a id="today_product"
+			href="http://localhost/look_project/mypage/mypage_main.php?mode=today_product"></a>
+			<?php }?>
+		<input type="button" id="top_button" value="TOP">
+	</div>
 	<div class="basic_shape">
 		<?php include "./lib/header1.php";?>
   <br>
@@ -191,7 +217,8 @@ for ($i = 0; $i < $total; $i ++) {
 						<div class="carousel-inner" role="listbox">
 <?php if(!empty($item_file_0)){?>
 				<div class="item active">
-								<a href="#" id="best_a"><img
+								<a href="./product_list/perchase.php?product_name=<?=urlencode($name) ?>"
+									id="best_a"><img
 									style="min-width: 300px; max-width: 300px; min-height: 430px; max-height: 430px;"
 									src=<?=$image_name[0] ?>>
 									<div id="price"
@@ -218,7 +245,7 @@ for ($i = 0; $i < $total; $i ++) {
 							</div>
 <?php } if (!empty($item_file_1)){?>
 				<div class="item">
-								<a href="#" id="best_a"><img
+								<a href="./product_list/perchase.php?product_name=<?=urlencode($name) ?>" id="best_a"><img
 									style="min-width: 300px; max-width: 300px; min-height: 430px; max-height: 430px;"
 									src=<?=$image_name[1] ?>>
 									<div id="price"
@@ -245,7 +272,7 @@ for ($i = 0; $i < $total; $i ++) {
 							</div>
 <?php } if (!empty($item_file_2)){?>
 				<div class="item">
-								<a href="#" id="best_a"><img
+								<a href="./product_list/perchase.php?product_name=<?=urlencode($name) ?>" id="best_a"><img
 									style="min-width: 300px; max-width: 300px; min-height: 430px; max-height: 430px;"
 									src=<?=$image_name[2] ?>>
 									<div id="price"
@@ -272,7 +299,7 @@ for ($i = 0; $i < $total; $i ++) {
 							</div>
 <?php }  if(!empty($item_file_3)){?>
 				<div class="item">
-								<a href="#" id="best_a"><img
+								<a href="./product_list/perchase.php?product_name=<?=urlencode($name) ?>" id="best_a"><img
 									style="min-width: 300px; max-width: 300px; min-height: 430px; max-height: 430px;"
 									src=<?=$image_name[3] ?>>
 									<div id="price"
@@ -299,7 +326,7 @@ for ($i = 0; $i < $total; $i ++) {
 							</div>
 <?php }  if(!empty($item_file_4)){?>
 				<div class="item">
-								<a href="#" id="best_a"><img
+								<ahref="./product_list/perchase.php?product_name=<?=urlencode($name) ?>"  id="best_a"><img
 									style="min-width: 300px; max-width: 300px; min-height: 430px; max-height: 430px;"
 									src=<?=$image_name[4] ?>>
 									<div id="price"
