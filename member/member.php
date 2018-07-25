@@ -151,6 +151,14 @@ session_start();
 				alert("비밀번호 확인을 해주세요.");
     			return ;
 		}
+			
+			if($("#pass_check").text() ==" 비밀번호가 적절하지 않습니다."){
+				$("#pass_1").focus();
+				alert("비밀번호 확인을 해주세요.");
+    			return ;
+			}
+		
+			
 			if($("#year").val()===""){							
 			alert("년도를 선택해주세요");
 			$("#year").focus();
