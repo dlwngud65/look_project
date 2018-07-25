@@ -1,0 +1,320 @@
+@charset "UTF-8";
+
+body {
+	text-align: center;
+}
+
+div.basic_shape {
+	min-width: 1380px;
+	display: inline-block;
+}
+
+header {
+	max-width: 1517px;
+	min-width: 1517px;
+	text-align: center;
+	background-color: white;
+	padding-bottom: 80px;
+}
+
+header div {
+	display: inline;
+}
+
+header div img {
+	width: 160px;
+	height: 68px;
+}
+
+header div#Login_box {
+	width: 500px;
+	text-align: right;
+	margin-right: 1%;
+	float: right;
+}
+
+header div#Login_box div {
+	float: right;
+	margin-top: 13px;
+	border-bottom: 1px solid black;
+}
+
+header div#Login_box div input[type=text] {
+	border: none;
+	outline: none;
+}
+
+header div#Login_box div input[type=image] {
+	width: 17px;
+	height: 17px;
+	outline: none;
+}
+
+header div#Menu_box {
+	width: 33%;
+	text-align: left;
+	float: left;
+	margin-left: 1%;
+	padding-top: 20px;
+}
+
+header div a.Menu {
+	color: black;
+	padding-right: 3%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: lighter;
+	text-decoration: none;
+}
+
+header div a.Menu:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+header div a.login {
+	color: black;
+	padding-left: 3%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: lighter;
+	text-decoration: none;
+	font-weight: lighter
+}
+
+header div a.login:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+footer {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: lighter;
+	background-color: white;
+	font-size: 9pt;
+	font-weight: lighter;
+	min-width: 1517px;
+	max-width: 1517px;
+	padding-top: 100px;
+	padding-bottom: 350px;
+	text-align: left;
+}
+
+footer div.footer_line1 {
+	float: left;
+	display: inline-block;
+	margin-left: 215px;
+}
+
+nav#main_nav {
+	min-width: 1517px;
+	max-width: 1517px;
+}
+
+span#best_logo {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 30pt;
+	letter-spacing: 10px;
+	word-spacing: 5px;
+	display: inline-block;
+	margin-top: 200px;
+}
+
+div#best_basic {
+	min-width: 1517px;
+	max-width: 1517px;
+	display: inline-block;
+	margin-top: 100px;
+	text-align: center;
+}
+
+div.best {
+	display: inline-block;
+	width: 300px;
+	height: 540px;
+	margin: 15 16 15 16;
+	box-shadow: 10px 10px 10px grey;
+	transition: bottom 2s;
+}
+
+div.best:hover{
+	position: relative;
+	bottom: 10px;
+}
+
+span#price2{
+	display: inline-block;
+	margin-top: 20px;
+}
+
+span#price3{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	margin-top: 10px;
+}
+
+a#best_a{
+	color: black;
+}
+
+a#best_a:hover{
+	color: gray;
+}
+
+div#function_button {
+	display: inline-block;
+	width: 50px;
+	height: 200px;
+	position: fixed;
+	right: 20px;
+	bottom: 400px;
+	z-index: 1;
+}
+
+input[type=button]#top_button {
+	width: 50px;
+	height: 50px;
+	cursor: hand;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 14pt;
+	vertical-align: middle;
+	background-color: white;
+	border: 1px solid lightgray;
+	outline: none;
+	transition: background-color 0.5s, color 0.5s;
+	color: lightgray;
+}
+
+input[type=button]#top_button:hover {
+	background-color: lightgray;
+	color: white;
+}
+
+a#today_product {
+	width: 50px;
+	height: 50px;
+	cursor: hand;
+	border: 1px solid lightgray;
+	background-image: url("../img/오늘본상품off.png");
+	display: inline-block;
+	background-size: 48px 48px;
+	transition: background-image 0.5s;
+}
+
+a#wish_list {
+	width: 50px;
+	height: 50px;
+	cursor: hand;
+	border: 1px solid lightgray;
+	background-image: url("../img/위시리스트off.png");
+	display: inline-block;
+	background-size: 48px 48px;
+	transition: background-image 0.5s;
+}
+
+a#myorder {
+	width: 50px;
+	height: 50px;
+	cursor: hand;
+	border: 1px solid lightgray;
+	background-image: url("../img/주문내역off.png");
+	display: inline-block;
+	background-size: 48px 48px;
+	transition: background-image 0.5s;
+}
+
+a#today_product:hover {
+	width: 48px;
+	height: 48px;
+	cursor: hand;
+	border: 1px solid lightgray;
+	background-image: url("../img/오늘본상품on.gif");
+	display: inline-block;
+	background-size: 48px 48px;
+}
+
+a#wish_list:hover {
+	width: 50px;
+	height: 50px;
+	cursor: hand;
+	border: 1px solid lightgray;
+	background-image: url("../img/위시리스트on.gif");
+	display: inline-block;
+	background-size: 48px 48px;
+}
+
+a#myorder:hover {
+	width: 50px;
+	height: 50px;
+	cursor: hand;
+	border: 1px solid lightgray;
+	background-image: url("../img/주문내역on.gif");
+	display: inline-block;
+	background-size: 48px 48px;
+}
+
+a#today_product2 {
+	width: 48px;
+	height: 48px;
+	cursor: hand;
+	border: 1px solid lightgray;
+	background-image: url("../img/오늘본상품off.png");
+	display: inline-block;
+	background-size: 48px 48px;
+	transition: background-image 0.5s;
+}
+
+a#wish_list2 {
+	width: 48px;
+	height: 48px;
+	cursor: hand;
+	border: 1px solid lightgray;
+	background-image: url("../img/위시리스트off.png");
+	display: inline-block;
+	background-size: 48px 48px;
+	transition: background-image 0.5s;
+}
+
+a#myorder2 {
+	width: 48px;
+	height: 48px;
+	cursor: hand;
+	border: 1px solid lightgray;
+	background-image: url("../img/주문내역off.png");
+	display: inline-block;
+	background-size: 48px 48px;
+	transition: background-image 0.5s;
+}
+
+a#today_product2:hover {
+	width: 48px;
+	height: 48px;
+	cursor: hand;
+	border: 1px solid lightgray;
+	background-image: url("../img/오늘본상품on.gif");
+	display: inline-block;
+	background-size: 48px 48px;
+}
+
+a#wish_list2:hover {
+	width: 48px;
+	height: 48px;
+	cursor: hand;
+	border: 1px solid lightgray;
+	background-image: url("../img/위시리스트on.gif");
+	display: inline-block;
+	background-size: 48px 48px;
+}
+
+a#myorder2:hover {
+	width: 48px;
+	height: 48px;
+	cursor: hand;
+	border: 1px solid lightgray;
+	background-image: url("../img/주문내역on.gif");
+	display: inline-block;
+	background-size: 48px 48px;
+}

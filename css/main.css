@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+div.basic_shape {
+	border: 1px solid black;
+	min-width: 1280px;
+}
+
+header {
+	border: 1px solid black;
+	max-height: 1480px;
+	text-align: center;
+	background-color: white;
+	border: 1px sold black;
+}
+
+header div {
+	display: inline;
+}
+
+header div img {
+	width: 160px;
+	height: 68px;
+	border: 1px sold black;
+}
+
+header div#Login_box {
+	width: 33%;
+	text-align: right;
+	margin-right: 1%;
+	float: right;
+}
+
+header div#Login_box div {
+	float: right;
+	margin-top: 13px;
+	border-bottom: 1px solid black;
+}
+
+header div#Login_box div input[type=text] {
+	border: none;
+	outline: none;
+}
+
+header div#Login_box div input[type=image] {
+	width: 17px;
+	height: 17px;
+	outline: none;
+}
+
+header div#Menu_box {
+	width: 33%;
+	text-align: left;
+	float: left;
+	margin-left: 1%;
+	padding-top: 20px;
+}
+
+header div a.Menu {
+	color: black;
+	padding-right: 3%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: lighter;
+	text-decoration: none;
+}
+
+header div a.Menu:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+header div a.login {
+	color: black;
+	padding-left: 3%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: lighter;
+	text-decoration: none;
+	font-weight: lighter
+}
+
+header div a.login:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+nav#main_nav{
+	height: 65%;
+}
+
+footer {
+	border: 1px solid black;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: lighter;
+	background-color: white;
+	font-size: 8pt;
+	font-weight: lighter;
+	width: 100%;
+	height: 25%;
+}
+
+footer div.footer_line1 {
+	margin: 1% 10% 1% 3%;
+	float: left;
+}
