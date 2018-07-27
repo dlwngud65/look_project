@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+div.basic_shape {
+	border-bottom: 1px solid black;
+	min-width: 1480px;
+}
+header{
+	min-width: 1480px;
+}
+
+header div#admin_log {
+	font-size: 27px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+header div#admin_log img {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: -2px 5px 3px 0;
+	vertical-align: middle;
+	cursor: hand;
+}
+
+header div#admin_menu_bar a {
+	cursor: hand;
+	width: 126px;
+	height: 126px;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+header div#admin_menu_bar a#img1 {
+	background-image: url('../admin_img/기본관리off.png');
+}
+
+header div#admin_menu_bar a#img1:hover {
+	background-image: url('../admin_img/기본관리on.png');
+}
+
+header div#admin_menu_bar a#img2 {
+	background-image: url('../admin_img/제품관리off.png');
+}
+
+header div#admin_menu_bar a#img2:hover {
+	background-image: url('../admin_img/제품관리on.png');
+}
+
+header div#admin_menu_bar a#img3 {
+	background-image: url('../admin_img/주문관리off.png');
+}
+
+header div#admin_menu_bar a#img3:hover {
+	background-image: url('../admin_img/주문관리on.png');
+}
+
+header div#admin_menu_bar a#img4 {
+	background-image: url('../admin_img/회원관리off.png');
+}
+
+header div#admin_menu_bar a#img4:hover {
+	background-image: url('../admin_img/회원관리on.png');
+}
+
+header div#admin_menu_bar a#img5 {
+	background-image: url('../admin_img/게시판관리off.png');
+}
+
+header div#admin_menu_bar a#img5:hover {
+	background-image: url('../admin_img/게시판관리on.png');
+}
+
+header div#admin_menu_bar a#img6 {
+	background-image: url('../admin_img/매출관리off.png');
+}
+
+header div#admin_menu_bar a#img6:hover {
+	background-image: url('../admin_img/매출관리on.png');
+}
+header div#admin_menu_bar a#img7 {
+	background-image: url('../admin_img/쿠폰관리off.png');
+}
+
+header div#admin_menu_bar a#img7:hover {
+	background-image: url('../admin_img/쿠폰관리on.png');
+}
+
+header div#admin_menu_bar a#img8 {
+	background-image: url('../admin_img/로그아웃off.png');
+}
+
+header div#admin_menu_bar a#img8:hover {
+	background-image: url('../admin_img/로그아웃on.png');
+}
+
+header div#admin_menu_bar a#img9 {
+	background-image: url('../admin_img/쇼핑물로이동off.png');
+}
+
+header div#admin_menu_bar a#img9:hover {
+	background-image: url('../admin_img/쇼핑물로이동on.png');
+}
+
+hr {
+	border: 1px solid lightgray;
+}
+
+/******************************************************************************************/
+
+nav {
+	min-width: 1480px;
+	height : 1100px;
+	
+}
+
+nav div#admin_sub_menu{
+	border-right: 1px solid lightgray;
+	width : 20%;
+	height : 1100px;
+	display: inline-block;
+}
+nav div#admin_content{
+	
+	display: inline-block;
+	height : 1000px;
+	width: 79.2%;
+	float : right;
+}

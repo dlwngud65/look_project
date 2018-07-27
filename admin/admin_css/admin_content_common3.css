@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+div#admin_common_sub1 b {
+	font-size: 18pt;
+}
+
+div#admin_common_sub1 hr {
+	border: 1px groove lightgray;
+}
+
+div table {
+	margin-top: 1%;
+	width: 1260px;
+	display: inline-block;
+	padding-left: 45;
+	border-collapse: collapse;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+div#title1 {
+	font-size: 16pt;
+}
+
+div#title1 b#title2 {
+	color: orange;
+	font-size: 20pt;
+	vertical-align: middle;
+}
+
+table td.td1 {
+	border: 1px solid lightgray;
+	width: 200px;
+	height: 50px;
+	padding-left: 10px;
+	padding-right: 40px;
+	font-size: 11pt;
+}
+
+table td.td2 {
+	border: 1px solid lightgray;
+	width: 800px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 11pt;
+}
+
+table td.td1 b {
+	font-size: 15pt;
+	color: orange;
+	vertical-align: middle;
+}
+
+input[type=text] {
+	width: 200px;
+	height: 25px;
+}
+
+input[type=text].address1 {
+	height: 25px;
+	width: 100px;
+}
+
+input[type=text].address2 {
+	height: 25px;
+	width: 400px;
+}
+
+input[type=password] {
+	width: 200px;
+	height: 25px;
+}
+
+div#save input[type=button]#save_button {
+	margin-top: 20px;
+	margin-left: 1049px;
+	width: 60px;
+}
+
+div#save input[type=button]#save_button:hover {
+	cursor: hand;
+}
+
+button#address {
+	vertical-align: middle;
+	margin-left: 5px;
+	height: 25.5px;
+}
+
+button#address:hover {
+	cursor: hand;
+}
+
+input[type=radio] {
+	cursor: hand;
+}
+
+textarea {
+	resize: none;
+}
+
+select {
+	width: 100px;
+	height: 25px;
+	vertical-align: middle;
+}
+
+input[type=file].upload {
+	cursor: hand;
+}
+
+input[type=text]#search {
+	outline: none;
+	border: 1px solid gray;
+	margin-bottom: 10px;
+}
+
+button#search_button {
+	margin-right: -1px;
+	width: 60px;
+	height: 25px;
+	cursor: hand;
+	vertical-align: middle;
+}
+
+table tr#sub_admin_list {
+	font-weight: bold;
+}
+
+table td.td3 {
+	text-align: center;
+	border: 1px solid lightgray;
+	width: 263px;
+	height: 50px;
+	font-size: 11pt;
+}
+
+table td#td3_modi_delete {
+	text-align: center;
+	border: 1px solid lightgray;
+	width: 263px;
+	height: 50px;
+	font-size: 11pt;
+	text-align: right;
+}
+
+input[type=button]#modi {
+	background-image: url('../admin_img/수정off.png');
+	background-size: 27px;
+	border: none;
+	width: 27px;
+	height: 27px;
+	cursor: hand;
+	outline: none;
+}
+
+input[type=button].modi {
+	background-image: url('../admin_img/수정off.png');
+	background-size: 27px;
+	border: none;
+	width: 27px;
+	height: 27px;
+	cursor: hand;
+	outline: none;
+	text-indent: -9999px
+}
+
+button#modi {
+	background-image: url('../admin_img/수정off.png');
+	background-size: 27px;
+	border: none;
+	width: 27px;
+	height: 27px;
+	cursor: hand;
+	outline: none;
+}
+
+input[type=button]#del {
+	background-image: url('../admin_img/삭제off.png');
+	background-size: 27px;
+	border: none;
+	width: 27px;
+	height: 27px;
+	cursor: hand;
+	outline: none;
+}
+
+input[type=button].del {
+	background-image: url('../admin_img/삭제off.png');
+	background-size: 27px;
+	border: none;
+	width: 27px;
+	height: 27px;
+	cursor: hand;
+	outline: none;
+	text-indent: -9999px
+}
+
+input[type=button]#add {
+	background-image: url('../admin_img/추가off.png');
+	background-size: 27px;
+	border: none;
+	width: 27px;
+	height: 27px;
+	cursor: hand;
+	outline: none;
+}
+
+input[type=button]#modi:hover {
+	background-image: url('../admin_img/수정off.png');
+	background-size: 30px;
+	border: none;
+	width: 30px;
+	height: 30px;
+	cursor: hand;
+	outline: none;
+}
+
+input[type=button].modi:hover {
+	background-image: url('../admin_img/수정off.png');
+	background-size: 30px;
+	border: none;
+	width: 30px;
+	height: 30px;
+	cursor: hand;
+	outline: none;
+}
+
+button#modi:hover {
+	background-image: url('../admin_img/수정off.png');
+	background-size: 30px;
+	border: none;
+	width: 30px;
+	height: 30px;
+	cursor: hand;
+	outline: none;
+}
+
+input[type=button]#del:hover {
+	background-image: url('../admin_img/삭제off.png');
+	background-size: 30px;
+	border: none;
+	width: 30px;
+	height: 30px;
+	cursor: hand;
+	outline: none;
+}
+
+input[type=button].del:hover {
+	background-image: url('../admin_img/삭제off.png');
+	background-size: 30px;
+	border: none;
+	width: 30px;
+	height: 30px;
+	cursor: hand;
+	outline: none;
+}
+
+input[type=button]#add:hover {
+	background-image: url('../admin_img/추가off.png');
+	background-size: 30px;
+	border: none;
+	width: 30px;
+	height: 30px;
+	cursor: hand;
+	outline: none;
+}
+
+input[type='checkbox'].access {
+	margin-left: 25px;
+	cursor: hand;
+}
+
+input[type='checkbox']#sale {
+	margin-left: 42px;
+	cursor: hand;
+}
+
+input[type='text']#sale {
+	height: 25px;
+	width: 60px;
+}
+
+input[type='color'] {
+	width: 30px;
+	height: 30px;
+	cursor: hand;
+}

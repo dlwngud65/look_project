@@ -1,0 +1,67 @@
+@charset "UTF-8";
+table td.td7 {
+	text-align: center;
+	border: 1px solid lightgray;
+	width: 130px;
+	height: 50px;
+	font-size: 11pt;
+	font-weight: bold;
+}
+table td.td8 {
+	text-align: center;
+	border: 1px solid lightgray;
+	width: 250px;
+	height: 50px;
+	font-size: 11pt;
+	font-weight: bold;
+}
+table td.td9 {
+	text-align: center;
+	border: 1px solid lightgray;
+	width: 180px;
+	height: 50px;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+
+input[type=button]#total_del_button{
+	margin-top: 20px;
+	margin-left: 1050px;
+	width: 80px;
+}
+
+input[type=button]#select_del_button{
+	margin-top: 20px;
+	width: 80px;
+	margin-left: 1030px;
+}
+
+input[type=button]#total_del_button:hover{
+	cursor: hand;
+}
+
+button#select_del_button:hover{
+	cursor: hand;
+}
+
+button#info {
+	background-image: url('../admin_img/자세히off.png');
+	background-size: 27px;
+	border: none;
+	width: 27px;
+	height: 27px;
+	cursor: hand;
+	outline: none;
+	vertical-align: -7px;
+}
+
+button#info:hover {
+	background-image: url('../admin_img/자세히off.png');
+	background-size: 30px;
+	border: none;
+	width: 30px;
+	height: 30px;
+	cursor: hand;
+	outline: none;
+}

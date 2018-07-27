@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+div#basic {
+	display: inline-block;
+	min-width: 414px;
+	min-height: 730px;
+	max-width: 414px;
+	max-height: 730px;
+}
+
+div#product_name {
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 10px;
+	text-align: center;
+	min-width: 413px;
+	max-width: 413px;
+	font-size: 10pt;
+}
+
+div#search {
+	display: inline-block;
+	min-width: 413px;
+	max-width: 413px;
+	text-align: right;
+	margin-top: 30px;
+}
+
+table {
+	min-width: 413px;
+	max-width: 413px;
+	border-collapse: collapse;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+table td {
+	border: 1px solid lightgray;
+}
+
+td.td1 {
+	width: 30px;
+	height: 30px;
+	font-size: 10pt;
+}
+td.td2 {
+	width: 200px;
+	height: 30px;
+	font-size: 10pt;
+}
+td.td3 {
+	width: 200px;
+	height: 30px;
+	font-size: 10pt;
+}
+
+div#button_box{
+	display: inline-block;
+	min-width: 413px;
+	max-width: 413px;
+	text-align: right;
+	margin-top: 10px;
+}

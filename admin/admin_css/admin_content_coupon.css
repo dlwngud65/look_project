@@ -1,0 +1,48 @@
+@charset "UTF-8";
+input[type=number]{
+	width: 60px;
+	height: 25px;
+}
+
+button#coupon {
+	background-image: url('../admin_img/쿠폰off.png');
+	background-size: 27px;
+	border: none;
+	width: 27px;
+	height: 27px;
+	cursor: hand;
+	outline: none;
+}
+
+button#coupon:hover {
+	background-image: url('../admin_img/쿠폰off.png');
+	background-size: 30px;
+	border: none;
+	width: 30px;
+	height: 30px;
+	cursor: hand;
+	outline: none;
+}
+
+table td.td14{
+	text-align: center;
+	border: 1px solid lightgray;
+	width: 183px;
+	height: 50px;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+div#select_coupon{
+	font-size: 11pt;
+	padding-top: 15px;
+	padding-left: 887px;
+}
+select#select_coupon{
+	font-size: 9pt;
+	width: 150px;
+}
+
+td#num4{
+	width: 100px;
+}

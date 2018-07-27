@@ -1,0 +1,225 @@
+input[type='checkbox'].size {
+	margin-left: 10px;
+	cursor: hand;
+}
+
+input[type='text'].count {
+	height: 25px;
+	width: 45px;
+	margin-right: 20px;
+}
+
+table td.td4 {
+	text-align: center;
+	border: 1px solid lightgray;
+	width: 249px;
+	height: 50px;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+table td#num {
+	width: 50px;
+}
+
+table td.td5 {
+	text-align: center;
+	border: 1px solid lightgray;
+	width: 698px;
+	height: 50px;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+table td.td6 {
+	text-align: center;
+	border: 1px solid lightgray;
+	width: 698px;
+	height: 50px;
+	font-size: 11pt;
+	font-weight: bold;
+}
+table td#td6 {
+	text-align: center;
+	border: 1px solid lightgray;
+	width: 652px;
+	height: 50px;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+button#add_button {
+	margin-top: 20px;
+	margin-left: 984px;
+	width: 60px;
+}
+
+input[type=button]#del_button {
+	margin-top: 20px;
+	width: 60px;
+}
+
+button#add_button:hover {
+	cursor: hand;
+}
+
+input[type=button]#del_button:hover {
+	cursor: hand;
+}
+
+button#add_color {
+	background-image: url('../admin_img/추가off.png');
+	background-size: 20px;
+	border: none;
+	width: 20px;
+	height: 20px;
+	cursor: hand;
+	outline: none;
+	vertical-align: -2px;
+}
+
+button#add_color:hover {
+	background-image: url('../admin_img/추가off.png');
+	background-size: 25px;
+	border: none;
+	width: 25px;
+	height: 25px;
+	cursor: hand;
+	outline: none;
+	vertical-align: -4px;
+}
+
+button#remove_color {
+	background-image: url('../admin_img/지우기off.png');
+	background-size: 20px;
+	border: none;
+	width: 20px;
+	height: 20px;
+	cursor: hand;
+	outline: none;
+	vertical-align: -2px;
+}
+
+button#remove_color:hover {
+	background-image: url('../admin_img/지우기off.png');
+	background-size: 25px;
+	border: none;
+	width: 25px;
+	height: 25px;
+	cursor: hand;
+	outline: none;
+	vertical-align: -4px;
+}
+
+input[type=button]#bestoff {
+	background-image: url('../admin_img/베스트off.png');
+	background-size: 27px;
+	border: none;
+	width: 27px;
+	height: 27px;
+	cursor: hand;
+	outline: none;
+}
+
+input[type=button]#bestoff:hover {
+	background-image: url('../admin_img/베스트off.png');
+	background-size: 30px;
+	border: none;
+	width: 30px;
+	height: 30px;
+	cursor: hand;
+	outline: none;
+}
+input[type=button]#beston {
+	background-image: url('../admin_img/베스트on.png');
+	background-size: 27px;
+	border: none;
+	width: 27px;
+	height: 27px;
+	cursor: hand;
+	outline: none;
+}
+
+input[type=button]#beston:hover {
+	background-image: url('../admin_img/베스트on.png');
+	background-size: 30px;
+	border: none;
+	width: 30px;
+	height: 30px;
+	cursor: hand;
+	outline: none;
+}
+
+div#page_box{
+	margin-top: 30px;
+	margin-left : 42px;
+	width: 1063px;
+	text-align: center;
+}
+
+a#before_page{
+	color: black;
+	padding: 0 0 0 0;
+	font-size: 15pt;
+	font-weight: normal;
+}
+a#next_page{
+	color: black;
+	padding: 0 0 0 0;
+	font-size: 15pt;
+	font-weight: normal;
+}
+a#before_page:hover{
+	color: black;
+	padding: 0 0 0 0;
+	font-size: 15pt;
+	font-weight: normal;
+}
+a#next_page:hover{
+	color: black;
+	padding: 0 0 0 0;
+	font-size: 15pt;
+	font-weight: normal;
+}
+
+b#present_page{
+	font-size: 11pt;
+	padding: 0 5 0 5;
+	background-color: silver;
+	color: white;
+}
+
+a#move_page{
+	font-size: 11pt;
+	color: gray;
+	padding: 5 5 5 5;
+	margin: 3 3 3 3;
+}
+a#move_page:hover{
+	font-size: 11pt;
+}
+
+a#before_block{
+	color: black;
+	padding: 0 0 0 0;
+	font-size: 15pt;
+	font-weight: normal;
+}
+a#next_block{
+	color: black;
+	padding: 0 0 0 0;
+	font-size: 15pt;
+	font-weight: normal;
+}
+a#before_block:hover{
+	color: black;
+	padding: 0 0 0 0;
+	font-size: 15pt;
+	font-weight: normal;
+}
+a#next_block:hover{
+	color: black;
+	padding: 0 0 0 0;
+	font-size: 15pt;
+	font-weight: normal;
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+nav div b {
+	font-size: 28pt;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	padding-left: 45;
+}
+
+nav div a{
+	font-size: 16pt;
+	padding-left: 55;
+	color: gray;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav div a:hover {
+	font-size: 18pt;
+	color: gray;
+}

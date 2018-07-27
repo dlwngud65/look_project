@@ -1,0 +1,33 @@
+@charset "UTF-8";
+input[type=text].notice{
+	width: 790px;
+}
+
+textarea.notice {
+	width: 790px;
+}
+
+table td.td11{
+	text-align: center;
+	border: 1px solid lightgray;
+	width: 574px;
+	height: 50px;
+	font-size: 11pt;
+	font-weight: bold;
+}
+table td.td12{
+	text-align: center;
+	border: 1px solid lightgray;
+	width: 130px;
+	height: 50px;
+	font-size: 11pt;
+	font-weight: bold;
+}
+table td.td13{
+	text-align: center;
+	border: 1px solid lightgray;
+	width: 448px;
+	height: 50px;
+	font-size: 11pt;
+	font-weight: bold;
+}

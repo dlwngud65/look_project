@@ -1,0 +1,22 @@
+@charset "UTF-8";
+table td#num2 {
+	width: 58px;
+}
+table td.td10 {
+	text-align: center;
+	border: 1px solid lightgray;
+	width: 260px;
+	height: 50px;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+input[type=button]#confirm {
+	background-image: url('../admin_img/승인off.png');
+	background-size: 27px;
+	border: none;
+	width: 27px;
+	height: 27px;
+	cursor: hand;
+	outline: none;
+}
