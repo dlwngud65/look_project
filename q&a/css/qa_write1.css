@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+nav#qa_write_nav {
+	text-align: center;
+	min-width: 1517px;
+	max-width: 1517px;
+}
+
+table {
+	border-collapse: collapse;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	display: inline-block;
+	margin-top: 100px;
+	min-width: 1252px;
+	max-width: 1252px;
+}
+
+td.td1 {
+	border: 1px solid lightgray;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	width: 180px;
+	font-size: 9pt;
+	height: 35px;
+	text-align: center;
+}
+
+td.td2 {
+	border: 1px solid lightgray;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	width: 820px;
+	font-size: 9pt;
+	height: 35px;
+	padding-left: 20px;
+}
+
+select {
+	vertical-align: -2px;
+	height: 21px;
+}
+
+input[type=text]#title {
+	min-width: 830px;
+}
+
+textarea {
+	resize: none;
+	border: none;
+	outline: none;
+	font-size: 13pt;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+nav#qa_write_nav span#write_logo {
+	border-bottom: 1px solid black;
+	width: 9%;
+	font-size: 19pt;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+input[type=radio] {
+	cursor: hand;
+}
+
+div#button_box {
+	display: inline-block;
+	min-width: 1252px;
+	max-width: 1252px; text-align : right;
+	margin-top: 50px;
+	text-align: right;
+}
+
+input[type=button] {
+	border: 1px solid black;
+	background-color: black;
+	color: snow;
+	width: 60px;
+	height: 35px;
+	border-radius: 3px;
+	outline: none;
+	font-size: 9pt;
+	cursor: hand;
+	transition: background-color 0.5s, color 0.5s;
+}
+
+input[type=button]:hover {
+	background-color: white;
+	color: black;
+}
+
+div#admin_ripple{
+	display : inline-block;
+	border: 1px solid lightgray;
+	margin-top : 50px;
+	min-width: 800px;
+	max-width: 800px;
+	min-height : 135px;
+	max-height : 135px;
+	border-radius: 10px;
+}
+
+table#admin_ripple_table{
+	min-width: 790px;
+	max-width: 790px;
+	min-height : 125px;
+	max-height : 125px;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+
+input[type=button]#admin_ripple_button{
+	min-width: 125px;
+	min-height: 125px;
+	max-width: 125px;
+	max-height: 125px;
+	background-color: #f4f4f4;
+	color: gray;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 11pt;
+	border: none;
+	border-radius: 10px;
+}

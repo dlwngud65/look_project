@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+.dialog1 {
+	background: white;
+	width: 40%;
+	min-height: 450px;
+	position: fixed;
+	left: calc(50% - 15%);
+	top: 0;
+	padding: 30px;
+	box-shadow: 0 10px 30px rgba(51, 51, 51, 0.4);
+	border: 3px solid lightgray;
+	-webkit-transition: all 180ms ease-in;
+	transition: all 180ms ease-in;
+	visibility: hidden;
+}
+
+.dialog1.dialog--active1 {
+	top: 30%;
+	visibility: visible;
+	-webkit-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+}
+
+.dialog1 .dialog__close1 {
+	font-size: 2rem;
+	line-height: 2rem;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	cursor: pointer;
+	padding: 15px;
+	-webkit-transition: color 150ms ease;
+	transition: color 150ms ease;
+}
+
+.dialog1 .dialog__close1:hover {
+	color: gray;
+}
+
+.dialog1 .dialog__title1 {
+	font-size: 2rem;
+	font-family: 'Slabo 27px', serif;
+	font-weight: 100;
+	margin: 0;
+	padding: 0 0 15px 0;
+}
+
+.dialog2 {
+	background: white;
+	width: 40%;
+	min-height: 450px;
+	position: fixed;
+	left: calc(50% - 15%);
+	top: 0;
+	padding: 30px;
+	box-shadow: 0 10px 30px rgba(51, 51, 51, 0.4);
+	border: 3px solid lightgray;
+	-webkit-transition: all 180ms ease-in;
+	transition: all 180ms ease-in;
+	visibility: hidden;
+}
+
+.dialog2.dialog--active2 {
+	top: 30%;
+	visibility: visible;
+	-webkit-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+}
+
+.dialog2 .dialog__close2 {
+	font-size: 2rem;
+	line-height: 2rem;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	cursor: pointer;
+	padding: 15px;
+	-webkit-transition: color 150ms ease;
+	transition: color 150ms ease;
+}
+
+.dialog2 .dialog__close2:hover {
+	color: gray;
+}
+
+.dialog2 .dialog__title2 {
+	font-size: 2rem;
+	font-family: 'Slabo 27px', serif;
+	font-weight: 100;
+	margin: 0;
+	padding: 0 0 15px 0;
+}
+
+.dialog3 {
+	background: white;
+	width: 40%;
+	min-height: 450px;
+	position: fixed;
+	left: calc(50% - 15%);
+	top: 0;
+	padding: 30px;
+	box-shadow: 0 10px 30px rgba(51, 51, 51, 0.4);
+	border: 3px solid lightgray;
+	-webkit-transition: all 180ms ease-in;
+	transition: all 180ms ease-in;
+	visibility: hidden;
+}
+
+.dialog3.dialog--active3 {
+	top: 30%;
+	visibility: visible;
+	-webkit-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+}
+
+.dialog3 .dialog__close3 {
+	font-size: 2rem;
+	line-height: 2rem;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	cursor: pointer;
+	padding: 15px;
+	-webkit-transition: color 150ms ease;
+	transition: color 150ms ease;
+}
+
+.dialog3 .dialog__close3:hover {
+	color: gray;
+}
+
+.dialog3 .dialog__title3 {
+	font-size: 2rem;
+	font-family: 'Slabo 27px', serif;
+	font-weight: 100;
+	margin: 0;
+	padding: 0 0 15px 0;
+}
+
+.dialog4 {
+	background: white;
+	width: 40%;
+	min-height: 450px;
+	position: fixed;
+	left: calc(50% - 15%);
+	top: 0;
+	padding: 30px;
+	box-shadow: 0 10px 30px rgba(51, 51, 51, 0.4);
+	border: 3px solid lightgray;
+	-webkit-transition: all 180ms ease-in;
+	transition: all 180ms ease-in;
+	visibility: hidden;
+}
+
+.dialog4.dialog--active4 {
+	top: 30%;
+	visibility: visible;
+	-webkit-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+}
+
+.dialog4 .dialog__close4 {
+	font-size: 2rem;
+	line-height: 2rem;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	cursor: pointer;
+	padding: 15px;
+	-webkit-transition: color 150ms ease;
+	transition: color 150ms ease;
+}
+
+.dialog4 .dialog__close4:hover {
+	color: gray;
+}
+
+.dialog4 .dialog__title4 {
+	font-size: 2rem;
+	font-family: 'Slabo 27px', serif;
+	font-weight: 100;
+	margin: 0;
+	padding: 0 0 15px 0;
+}
+
+.dialog5 {
+	background: white;
+	width: 40%;
+	min-height: 450px;
+	position: fixed;
+	left: calc(50% - 15%);
+	top: 0;
+	padding: 30px;
+	box-shadow: 0 10px 30px rgba(51, 51, 51, 0.4);
+	border: 3px solid lightgray;
+	-webkit-transition: all 180ms ease-in;
+	transition: all 180ms ease-in;
+	visibility: hidden;
+}
+
+.dialog5.dialog--active5 {
+	top: 30%;
+	visibility: visible;
+	-webkit-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+}
+
+.dialog5 .dialog__close5 {
+	font-size: 2rem;
+	line-height: 2rem;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	cursor: pointer;
+	padding: 15px;
+	-webkit-transition: color 150ms ease;
+	transition: color 150ms ease;
+}
+
+.dialog5 .dialog__close5:hover {
+	color: gray;
+}
+
+.dialog5 .dialog__title5 {
+	font-size: 2rem;
+	font-family: 'Slabo 27px', serif;
+	font-weight: 100;
+	margin: 0;
+	padding: 0 0 15px 0;
+}
+
+.dialog6 {
+	background: white;
+	width: 40%;
+	min-height: 450px;
+	position: fixed;
+	left: calc(50% - 15%);
+	top: 0;
+	padding: 30px;
+	box-shadow: 0 10px 30px rgba(51, 51, 51, 0.4);
+	border: 3px solid lightgray;
+	-webkit-transition: all 180ms ease-in;
+	transition: all 180ms ease-in;
+	visibility: hidden;
+}
+
+.dialog6.dialog--active6 {
+	top: 30%;
+	visibility: visible;
+	-webkit-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+}
+
+.dialog6 .dialog__close6 {
+	font-size: 2rem;
+	line-height: 2rem;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	cursor: pointer;
+	padding: 15px;
+	-webkit-transition: color 150ms ease;
+	transition: color 150ms ease;
+}
+
+.dialog6 .dialog__close6:hover {
+	color: gray;
+}
+
+.dialog6 .dialog__title6 {
+	font-size: 2rem;
+	font-family: 'Slabo 27px', serif;
+	font-weight: 100;
+	margin: 0;
+	padding: 0 0 15px 0;
+}
+
+span#question{
+	font-family: sans-serif;
+}
