@@ -1,18 +1,35 @@
 <?php
+
+/*  검색기능입니다.
+ *  
+ *   
+ *   */
+
+
 session_start();
 include '../lib/dbconn.php';
+
+//여기서 받는거
 if(!empty($_GET['search_text'])){
     $goods_name=$_GET['search_text'];
 }
+if(!empty($_POST['search_text'])){
+    $goods_name=$_POST['search_text'];
+}
+
+//헤더에서 받는거
 if(!empty($_GET['search_text2'])){
     $goods_name=$_GET['search_text2'];
 }
+//Ajax에서 받는거
 if (! empty($_GET['goods_name'])) {
     $goods_name = $_GET['goods_name'];
 }
+
     $sql = "select * from goods where goods_name like '%$goods_name%'";
     $result = mysqli_query($con, $sql);
     $total_count = mysqli_num_rows($result);
+    
     if($total_count==null){
         $total_count=0;
     }
@@ -22,12 +39,12 @@ if (! empty($_GET['goods_name'])) {
 <title>Look&</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="../css/main2.css?v=v4" rel="stylesheet" type="text/css">
-<link href="./css/product_list_main.css?v=v4" rel="stylesheet"
+<link href="../css/main2.css?v=v5" rel="stylesheet" type="text/css">
+<link href="./css/product_list_main.css?v=v5" rel="stylesheet"
 	type="text/css">
-<link href="./css/order_product.css?v=v11" rel="stylesheet"
+<link href="./css/order_product.css?v=v12" rel="stylesheet"
 	type="text/css">
-<link href="./css/search.css?v=v9" rel="stylesheet" type="text/css">
+<link href="./css/search.css?v=v10" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="../img/look.png" type="image/x-icon">
 
 <script type="text/javascript"
@@ -36,6 +53,8 @@ if (! empty($_GET['goods_name'])) {
 </script>
 <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script>
+
+	//텍스트에 키업을 하였을 시 ajax를 사용하여 값을 불러온다.
 	$(document).ready(function(){
 		$("#search_text").keyup(function(){
 			var search_text= $("#search_text").val();
@@ -61,6 +80,8 @@ if (! empty($_GET['goods_name'])) {
 			$("#srl_box1").css("border", "1px solid black");
 		})
 	});
+	
+	//검색을 시도 하였을 시. 
 	function submit1(){
 		if(!document.getElementById("search_text").value){
 			alert("검색내용을 입력하세요!");
@@ -80,7 +101,7 @@ if (! empty($_GET['goods_name'])) {
    <span id="search_logo">SEARCH</span><br>
 		<nav id="search_nav">
 			<div id="search_bar">
-				<form name="search_text" action="search.php" method="get">
+				<form name="search_text" action="search.php" method="post">
 				<input type="text" id="search_text" name="search_text" autofocus autocomplete="off"><input type="button"
 					id="search_button" onclick="submit1()">
 					</form>
@@ -98,7 +119,7 @@ if (! empty($_GET['goods_name'])) {
 			<div id="search_result_box">
          <?php 
          $sql = "select * from goods where goods_name like '%$goods_name%'";
-         $result = mysqli_query($con, $sql);
+         $result = mysqli_query($con, $sql); 
          while($row=mysqli_fetch_array($result)){ 
             $goods_name=$row['goods_name'];      
             $goods_price=$row['goods_price']; 
@@ -114,7 +135,9 @@ if (! empty($_GET['goods_name'])) {
 					</span>
 					</a>
 				</div>";
-        }?>
+        }
+       
+        ?>
          </div>
 		</nav>   
       <?php include "../lib/footer2.php";?>
